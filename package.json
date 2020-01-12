@@ -1,7 +1,11 @@
 {
   "name": "@hackclub/season",
   "description": "Get the current season",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "source": "src/index.js",
+  "main": "dist/season.js",
+  "module": "dist/season.mjs",
+  "unpkg": "dist/season.umd.js",
   "scripts": {
     "prepare": "microbundle",
     "watch": "microbundle watch --no-compress"
