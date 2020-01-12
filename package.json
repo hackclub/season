@@ -1,0 +1,13 @@
+{
+  "name": "@hackclub/season",
+  "description": "Get the current season",
+  "version": "0.0.1",
+  "scripts": {
+    "prepare": "microbundle",
+    "watch": "microbundle watch --no-compress"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}
