@@ -1,7 +1,7 @@
 const getSeason = month => {
-  if (3 <= month <= 5) return 'Spring'
-  if (6 <= month <= 8) return 'Summer'
-  if (9 <= month <= 11) return 'Fall'
+  if (3 <= month && month <= 5) return 'Spring'
+  if (6 <= month && month <= 8) return 'Summer'
+  if (9 <= month && month <= 11) return 'Fall'
   return 'Winter' // 12, 1, 2
 }
 
